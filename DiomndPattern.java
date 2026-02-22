@@ -14,18 +14,20 @@ public class DiomndPattern {
             System.out.println();
         }
 
-         for(i=1;i<=3;i++)
+         for(i=4;i>=1;i--)
         {
-            for(j=1;j<=1+(i-1);j++)
+            for(j=4;j>=i+1;j--)
             {
                System.out.print(" "); 
             }
-            for(j=i;j<=3+(3-i);j++)
+            for(j=1;j<=i+(i-1);j++)
             {
                System.out.print("*"); 
             }
             System.out.println();
         }
+
+        
     }
     
 }
